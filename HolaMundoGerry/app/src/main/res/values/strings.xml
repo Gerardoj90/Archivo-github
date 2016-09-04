@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hola_Mundo_Gerry</string>
+    <string name="texto">BIENVENIDO</string>
+    <string name="boton">ENTRAR</string>
+</resources>

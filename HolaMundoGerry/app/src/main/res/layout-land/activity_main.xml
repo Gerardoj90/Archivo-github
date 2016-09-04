@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.marcianitosegundo.holamundogerry.MainActivity">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/marciano3"
+        style="@style/GERRY" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        android:id="@+id/button"
+        android:textColor="#080808"
+        android:typeface="normal"
+        android:width="@dimen/abc_dialog_padding_material"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:singleLine="false"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO"
+        android:id="@+id/textView"
+        android:textColor="#faf7f7"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:layout_marginTop="45dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
